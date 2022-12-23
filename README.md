@@ -3,12 +3,6 @@
 ![My card name](https://cardivo.vercel.app/api?name=Bintang1302&description=Hi,%20i%27m%20a%20Bintang1302%20and%20i%20am%2016%20y.o.%20Nice%20to%20meet%20you%20%F0%9F%91%8B&image=https://avatars.githubusercontent.com/u/93582939?v=4)
 
 ------
-
-<p align='center'>
-  <a href="https://instagram.com/bintang_1302"><img height="30" src="[https://raw.githubusercontent.com/TobyG74/TobyG74/main/instagram.jpg](https://cdn-icons-png.flaticon.com/512/174/174855.png)"></a>
-</p>
-
-</br>
   
 <p align='center'>
 - 🌱 I’m currently learning
@@ -22,7 +16,9 @@
 <p align='center'>
    ⚡ Fun fact: I really like play a game
  </p>
-   
+ 
+ ## Contact me: 
+![](https://discord.c99.nl/widget/theme-1/881796102142185504.png)
  ------
 <p align="center"><a href="https://github.com/Bintang1302"><img src="https://github-readme-stats.vercel.app/api?username=Bintang1302&show_icons=true&theme=tokyonight"></a></p>
 <p align="center">
