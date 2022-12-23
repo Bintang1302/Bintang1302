@@ -25,6 +25,5 @@
 
 <p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Bintang1302&" alt="Bintang1302" /></p>
 
- ------
  ## Contact me: 
 ![](https://discord.c99.nl/widget/theme-1/881796102142185504.png)
