@@ -5,7 +5,7 @@
 ------
 
 <p align='center'>
-  <a href="https://instagram.com/bintang_1302"><img height="30" src="https://raw.githubusercontent.com/TobyG74/TobyG74/main/instagram.jpg"></a>
+  <a href="https://instagram.com/bintang_1302"><img height="30" src="[https://raw.githubusercontent.com/TobyG74/TobyG74/main/instagram.jpg](https://cdn-icons-png.flaticon.com/512/174/174855.png)"></a>
 </p>
 
 </br>
