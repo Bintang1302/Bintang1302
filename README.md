@@ -17,8 +17,6 @@
    ⚡ Fun fact: I really like play a game
  </p>
  
- ## Contact me: 
-![](https://discord.c99.nl/widget/theme-1/881796102142185504.png)
  ------
 <p align="center"><a href="https://github.com/Bintang1302"><img src="https://github-readme-stats.vercel.app/api?username=Bintang1302&show_icons=true&theme=tokyonight"></a></p>
 <p align="center">
@@ -26,3 +24,7 @@
 </p>
 
 <p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Bintang1302&" alt="Bintang1302" /></p>
+
+ ------
+ ## Contact me: 
+![](https://discord.c99.nl/widget/theme-1/881796102142185504.png)
