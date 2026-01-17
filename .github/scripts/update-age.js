@@ -13,10 +13,10 @@ function calculateAge(birthDate) {
     return age;
 }
 
-const BIRTH_DATE = '2006-02-13'; 
+const BIRTH_DATE = '2006-02-13';
 const age = calculateAge(BIRTH_DATE);
 
-const readmePath = path.join(__dirname, '../../README.md'); 
+const readmePath = path.join(__dirname, '../../README.md');
 
 fs.readFile(readmePath, 'utf8', (err, data) => {
     if (err) {
@@ -24,18 +24,25 @@ fs.readFile(readmePath, 'utf8', (err, data) => {
         return;
     }
 
-    const regex = /(and i am )(\d+)( y\.o\.)/g;
-    const newDescription = `and i am ${age} y.o.`;
+    // Update encoded URL in cardivo link
+    const oldAgePattern = /(and%20i%20am%20)(\d+)(%20y\.o\.)/;
+    const newCardUrl = `and%20i%20am%20${age}%20y.o.`;
     
-    if (data.includes(newDescription)) {
-        console.log("Age is already correct. No changes needed.");
+    // Check current age in README
+    const currentMatch = data.match(oldAgePattern);
+    if (currentMatch && parseInt(currentMatch[2]) === age) {
+        console.log(`Age is already ${age}. No update needed.`);
         return;
     }
 
-    const updatedContent = data.replace(regex, newDescription);
+    // Replace the age in cardivo URL
+    const updatedContent = data.replace(oldAgePattern, newCardUrl);
 
     fs.writeFile(readmePath, updatedContent, 'utf8', (err) => {
-        if (err) return console.error("Error writing README file:", err);
-        console.log(`Age successfully updated to ${age} in README.md`);
+        if (err) {
+            console.error("Error writing README file:", err);
+            return;
+        }
+        console.log(`✅ Successfully updated age to ${age} in README.md`);
     });
 });
